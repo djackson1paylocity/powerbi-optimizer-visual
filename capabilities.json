@@ -1,0 +1,37 @@
+{
+  "dataRoles": [
+    {
+      "name": "category",
+      "kind": "Grouping",
+      "displayName": "Category"
+    },
+    {
+      "name": "value",
+      "kind": "Measure",
+      "displayName": "Value"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "category": { "max": 1 },
+          "value": { "max": 1 }
+        }
+      ],
+      "categorical": {
+        "categories": {
+          "for": { "in": "category" }
+        },
+        "values": {
+          "select": [{ "for": { "in": "value" } }]
+        }
+      }
+    }
+  ],
+  "objects": {},
+  "supportsHighlight": false,
+  "sorting": {
+    "default": {}
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #e5e0dd;
+}
+
+.optimizer-visual {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #e5e0dd;
+}
+
+.optimizer-visual svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #e5e0dd;
+}
+
+.optimizer-visual .title {
+  font-size: 20px;
+  font-weight: 700;
+  fill: #2b2b2b;
+}

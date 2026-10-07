@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "optimizerVisual",
+    "displayName": "Optimizer Visual",
+    "guid": "optimizerVisualC0DFA25A9C234F92A8D1AAB39D75B8E7",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Radial optimizer opportunity breakdown visual.",
+    "supportUrl": "https://github.com/djackson1paylocity/powerbi-optimizer-visual",
+    "gitHubUrl": "https://github.com/djackson1paylocity/powerbi-optimizer-visual"
+  },
+  "apiVersion": "5.11.0",
+  "author": {
+    "name": "Copilot"
+  },
+  "assets": {
+    "icon": "assets/icon.svg",
+    "screenshot": null,
+    "thumbnail": null
+  },
+  "style": "style.css",
+  "capabilities": "capabilities.json",
+  "stringResources": []
+}

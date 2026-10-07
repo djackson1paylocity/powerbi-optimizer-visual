@@ -1,0 +1,20 @@
+{
+  "name": "optimizer-visual",
+  "version": "1.0.0",
+  "description": "Radial optimizer opportunity breakdown custom visual",
+  "author": {
+    "name": "Copilot"
+  },
+  "scripts": {
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "test": "pbiviz package --no-minify"
+  },
+  "dependencies": {
+    "powerbi-visuals-api": "^5.11.0"
+  },
+  "devDependencies": {
+    "powerbi-visuals-tools": "^5.4.0",
+    "typescript": "^5.5.4"
+  }
+}
